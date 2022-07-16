@@ -23,8 +23,8 @@
 
 #### tipo de jogo: mega_sena, quina, loto_facil, loto_mania
 
->GET /loteria / "tipo de jogo" / "quantidade de apostas" <br>
-Exemplo: localhost:8080/loteria/mega_sena/3
+>GET /loteria / "tipo de jogo" ? quantidade="quantidade de apostas" <br>
+Exemplo: localhost:8080/loteria/mega_sena?quantidade=3
 ``` json
 [[57,48,9,29,18,34],[27,9,28,3,53,46],[56,18,60,47,15,12]]
 ```
